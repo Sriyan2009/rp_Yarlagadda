@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Different Machine Learning Models to Predict Exoplanets and Comparing their Accuracy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" 
+    href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+     crossorigin="anonymous"></script>
+</head>
+<body class = "body">
+    <div class="container-lg">
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark nb-background-color">
+            <!--lg = large breakpoint navbar-dark = make the text light nb-background color = set background color-->
+            <div class = "container">
+                <a href="index.html" class="navbar-brand">
+                    <img src = "img/droplet.png" alt="Water Logo" class="d-inline-block align-text-top w-50">
+                </a>
+
+                <!--Hamburger Menu Button-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class = "navbar-toggler-icon"></span>
+                </button>
+                <!--Collapsible navbar menu with custom hover underline CSS animation-->
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <!--Links to hamburger menu button-->
+                    <ul class="navbar-nav ms-auto">
+                        <li class= "nav-item">
+                            <a href="authors.html" class="nav-link hover-underline-animation nbMenuItem">Authors</a>
+                        </li>
+                        <li class= "nav-item">
+                            <a href="procedure.html" class="nav-link hover-underline-animation nbMenuItem">Procedure</a>
+                        </li>
+                        <li class= "nav-item">
+                            <a href="results.html" class="nav-link hover-underline-animation nbMenuItem">Results </a>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <!--Showcase-->
+        <section class="showcase text-light p-2 text-center planet-bg-image">
+            <!--p-2 = padding -->
+            <div class="container">
+                        <div class="container">
+                            <h1 class="display-4">Using Different Machine Learning Models to Predict Exoplanets and Comparing their Accuracy</h1>
+                            <h2><em>By: S. Yarlagadda, C. Queenan</em></h2>
+                            <h2>High Technology High School, 765 Newman Springs Road, Lincroft, NJ 07738</h2>
+                        </div>
+            </div>
+        </section>
+        
+        <!--Overview-->
+        <section class="overview text-dark p-2 text-left">
+            <div class="container">
+                <div class="row"> <!--Row 1-->
+                    <div class="col-sm-4 p-3">
+                        <img src="img/19418.jpeg" alt="Water Temperature Graph" class="img-fluid">
+                    </div>
+
+                    <div class="col-sm-8 p-3">
+                        <h1 class="ovPadLeft">Abstract</h1>
+                        <p class="lead overview-font ovPadLeft" id=""><p>In this study, several different machine learning models were trained on exoplanet data gathered by NASA’s Kepler Telescope on exoplanet data. The study aimed to find if any models were significantly more accurate, and which are the most accurate. First, the data was downloaded from the source and modified until it was ready for a computer to understand. This includes steps such as dropping unwanted columns and numerizing text data. Each model was trained on the data and then tested. In addition to testing several different types of models, hyperparameters were also used to find the best model possible. The models were then tested and statistics like their average accuracy, loss, and standard deviation were calculated. This was used to determine if the models were statistically significantly accurate using a threshold of 95% accuracy. This study found that the machine learning models performed exceptionally well, with all but three of the models being significantly accurate. In addition, all of the models were significantly accurate when their best hyperparameters were used. Overall, this study concluded that machine learning is a very powerful tool for exoplanet detection, and can be of excellent use in the future. The best types of models and best hyperparameters for each model were also found in this study.
+ </p></p>
+                    </div>
+                </div>
+
+                <div class="row"> <!--Row 2-->
+                    <div class="col-sm-8 p-3">
+                        <h1 class="ovPadRight">Rationale</h1>
+                        <p class="lead overfiew-font ovPadRight" id=""><p>Lorem ipsum dolor sit amet. Eos ratione voluptatem id deserunt quia aut necessitatibus vitae vel culpa ratione ut enim delectus ad vero quos et dolorem galisum. Est temporibus nobis et dolorum delectus ut dolorem molestiae rem dignissimos ducimus. </p><p>Ut nostrum necessitatibus qui adipisci reiciendis qui nostrum minima et reprehenderit eaque sed voluptas ipsum ut dolorem aliquid ut consequatur quis. Et distinctio amet ab illum ipsam eos nihil dicta. Et voluptatem dolorum ad consequatur debitis ex totam velit non voluptatibus laudantium et deleniti temporibus eos dolores autem qui tenetur quam. Est rerum mollitia ut nihil enim est dolorem maxime et error nihil hic exercitationem tempora hic velit incidunt ut amet deserunt. </p><p>Est sint blanditiis ut sequi voluptates ut deserunt autem ad nulla libero non numquam minima. Vel similique dolorum id dolorum molestiae ut omnis error est cumque soluta qui accusantium tempora. </p></p>
+                    </div>
+                    
+                    <div class="col-sm-4 p-3">
+                        <img src="img/watermap.jpg" alt="Water Map" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="row"> <!--Row 3-->
+                    <div class="col-sm-4 p-3">
+                        <img src="img/phytoplankton-pnas.jpg" alt="Phytoplankton" class="img-fluid">
+                    </div>
+
+                    <div class="col-sm-8 p-3">
+                        <h1 class="ovPadLeft">Research Practicum</h1>
+                        <p class="lead overview-font ovPadLeft" id=""><p>Lorem ipsum dolor sit amet. Eos ratione voluptatem id deserunt quia aut necessitatibus vitae vel culpa ratione ut enim delectus ad vero quos et dolorem galisum. Est temporibus nobis et dolorum delectus ut dolorem molestiae rem dignissimos ducimus. </p><p>Ut nostrum necessitatibus qui adipisci reiciendis qui nostrum minima et reprehenderit eaque sed voluptas ipsum ut dolorem aliquid ut consequatur quis. Et distinctio amet ab illum ipsam eos nihil dicta. Et voluptatem dolorum ad consequatur debitis ex totam velit non voluptatibus laudantium et deleniti temporibus eos dolores autem qui tenetur quam. Est rerum mollitia ut nihil enim est dolorem maxime et error nihil hic exercitationem tempora hic velit incidunt ut amet deserunt. </p><p>Est sint blanditiis ut sequi voluptates ut deserunt autem ad nulla libero non numquam minima. Vel similique dolorum id dolorum molestiae ut omnis error est cumque soluta qui accusantium tempora. </p></p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Footer (require a Bootstrap icon)-->
+        <footer class = "p-5 footer text-light text-center position-relative">
+            <div class="container">
+                <p class="lead">Copyright &copy; SE 2025 Boostrap Demo</p>
+                <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                    <i class="bi bi-arrow-up-circle h2 text-light"></i>    
+                </a>
+            </div>
+        </footer>
+
+    </div>  
+</body>
+</html>
