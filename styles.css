@@ -4,13 +4,16 @@
     width:400px;
     margin: auto;
 }
-
 .about-team{
     color:rgb(82, 81, 81)
 }
 
 .authors{
     background-color: #dbe3e7;
+}
+
+.author-card-container{
+    padding-bottom: 5%;
 }
 
 .body{
@@ -25,14 +28,39 @@
     color: #FFFFFF;
 }
 
-.nb-background-color{   /* navbar background color */
+.img-container{
+    display:flex;
+    align-items:center;
+}
+
+#picture-1, #picture-2{
+    object-fit: cover;
+    object-position: 20% 80%;
+    height: 450px;
+    width: 400px;
+}
+
+.procedure-image{
+    width:350px;
+    height:auto;
+}
+
+.page-title{
     background-color: #023E8A;
+    text-align: center;
+    padding: 5% 5%;
+    margin-bottom: 5%;
+}
+
+.nb-background-color{   /* navbar background color */
+    background-color: #090050;
 }
 
 .nbMenuItem{               /* navbar link text properties */
     font-size:25px;
     margin-left: 10px;
     margin-right: 10px;
+    color:#ffffff !important;
 }
 
 .overview{
@@ -62,6 +90,16 @@
     display: flex;
     align-items: center;
 }
+
+.logo-size{
+    height: auto;
+    width: 100px;
+}
+
+.top-padding{
+    padding-top: 10px;
+}
+
 
 /* ----------------- ID CSS ----------------- */
 
