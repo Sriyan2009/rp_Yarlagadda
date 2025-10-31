@@ -20,6 +20,14 @@
     background-color: rgb(0, 170    , 170);
 }
 
+.chartjs-sample{
+    background-color: #dbe3e7;
+}
+
+#chart-wrapper{
+    padding: 20px;
+}
+
 .footer{
     background-color: #023E8A;
 }
@@ -39,6 +47,7 @@
     height: 450px;
     width: 400px;
 }
+
 
 .procedure-image{
     width:350px;

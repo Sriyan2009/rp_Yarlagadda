@@ -1,0 +1,6 @@
+Model,Score without hyperparameters,Score with hyperparameters
+KNN (K-Nearest Neighbors),96.85,96.85
+DecisionTreeClassifier,99.61,99.92
+RandomForestClassifier,93.16,98.9
+XGBoost (Extreme Gradient Boosting,99.84,99.84
+Logistic Regression,98.19,98.19
