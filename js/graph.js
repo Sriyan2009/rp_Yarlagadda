@@ -1,6 +1,6 @@
 // Code for generating a Chart.js line chart
 async function getData(){
-    const response = await fetch('../data/researchdata.csv'); // .. moves up one folder
+    const response = await fetch('data/researchdata.csv'); // .. moves up one folder
     const data = await response.text()                
     // console.log(data);          // CSV to TEXT
 
@@ -109,13 +109,13 @@ async function createChart(){
                 },
                 legend: {
                     display: true,
-                    position: 'top', // can be 'top', 'bottom', 'left', 'right'
+                    position: 'top',
                     labels: {
                         font: {
                             size: 16,
                             family: 'Arial, sans-serif'
                         },
-                        color: '#333' // optional text color
+                        color: '#333' 
                     }
                 }
             }
@@ -191,7 +191,6 @@ async function createChart(){
     });
 }
 
-//labooboo labooooboooooooo LA BOOO BOOOOOo
 
 
  createChart();
